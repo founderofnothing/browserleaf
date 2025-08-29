@@ -1,0 +1,210 @@
+
+@media (max-width:1536px ) {
+  .nav_container{
+    max-width:100%;
+  }
+.mob-domain-name{
+  display: none;
+}
+
+  .ham-icon{
+    width: 24px;
+    height: 24px;
+    display: none;
+  }
+  .cancel-icon{
+    width: 24px;
+    height: 24px;
+    display: none;
+  }
+
+
+  .nav_container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav_lhs{
+    display: flex;
+    align-items: center;
+}
+
+.nav_rhs{
+    margin-top:30px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction:row;
+    column-gap:20px;
+}
+
+
+.domain_name{
+ font-family:orbitron;
+ margin-top:30px;
+ margin-bottom: 0px;
+ text-transform: capitalize;
+
+}
+
+.menu-list{
+    font-family:poppins;
+    text-decoration: none;
+    color: black;
+    font-size:15px;
+    font-weight:400;
+   
+}
+}
+
+
+@media (max-width:1280px ) {
+  .nav_container{
+    max-width:100%;
+  }
+
+}
+
+@media (max-width:1024px ) {
+  .nav_container{
+    max-width:100%;
+  }
+}
+
+@media (max-width:768px ) {
+  .nav_container{
+    max-width:100%;
+  }
+  .domain_name{
+    font-size:27px;
+  }
+    .nav_rhs{
+        column-gap:10px;
+    }
+
+    .menu-list{
+        font-size:12px;
+    }
+}
+
+
+@media (max-width:640px ) {
+  .ham-icon{
+    display: block;
+    /* margin-left: auto; */
+    margin-top:30px;
+    cursor: pointer;
+    
+  }
+
+  .cancel-icon {
+    display: none;
+    cursor: pointer;
+  }
+.menu-list{
+  color: white;
+}
+
+
+
+
+  /* Hide menu by default */
+  .nav_rhs {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top:-25px;  /* place menu under navbar */
+    right: 0;
+    background:black;
+    color: white;
+    gap: 20px;
+    width:40%;
+    height:100vh;
+    padding: 20px;
+    z-index: 3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+
+  /* Show menu when .show is added */
+  .nav_rhs.show {
+    display: flex;
+  }
+
+  /* Inside open menu: show cancel icon */
+  .nav_rhs.show .cancel-icon {
+    display: block;
+    align-self: flex-end;
+  }
+
+  /* Hide ham icon once menu is open */
+  .nav_rhs.show .ham-icon {
+    display: none;
+  }
+}
+
+
+@media (max-width:475px ) {
+
+  .nav_container{
+    max-width:100%;
+    margin-left: 10px;
+   margin-right:10px;
+  }
+  .domain_name{
+    display: none;
+  }
+  .mob-domain-name{
+      display: block;
+      font-family: orbitron;
+      font-size:25px;
+      margin-top:30px;
+      margin-bottom: 0px;
+      text-transform: capitalize;
+
+  }
+  .ham-icon,.cancel-icon{
+    width:30px;
+    height:30px;
+  }
+  .ham-icon{
+    display: block;
+    /* margin-left: auto; */
+    margin-top:30px;
+    cursor: pointer;
+    
+  }
+
+ 
+}
+
+@media (max-width:375px ) {
+  .nav_container{
+    max-width:100%;
+    margin-left: 10px;
+   margin-right:10px;
+  }
+  .ham-icon,.cancel-icon{
+    width:30px;
+    height:30px;
+  }
+
+}
+
+@media (max-width:320px ) {
+
+  .nav_container{
+    max-width:100%;
+   margin-left: 10px;
+   margin-right:10px;
+
+  }
+  .ham-icon,.cancel-icon{
+    width:30px;
+    height:30px;
+  }
+}
+
+

@@ -1,0 +1,45 @@
+.icon-lister{
+    display: flex;
+    flex-direction:row;
+    column-gap:200px;
+    justify-content: center;
+}
+
+.carsoal-icons{
+    width:40px;
+    height:40px;
+}
+
+.carousal-container {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px 0;
+  }
+  
+  .carousal-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .icon-lister {
+    display: flex;
+   
+  }
+  
+  .carsoal-icons {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

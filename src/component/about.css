@@ -1,0 +1,23 @@
+.error-conatiner{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+
+.errorpage{
+    font-family:orbitron;
+    margin-top:200px;
+    margin-bottom: 50px;
+    text-align:center;
+    font-size: 40px;
+    font-weight:600;
+}
+
+
+.not-found{
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-weight:500;
+}
