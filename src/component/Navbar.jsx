@@ -10,8 +10,8 @@ const Navbar = () => {
         {/* left side of navbar */}
       <div className="nav_lhs">
       <img src={logo} alt="Logo" />
-      <h1 className='mob-domain-name'>bl</h1>
-      <h1 className='domain_name'>browserleaf</h1>
+      <h1 className='mob-domain-name'>ps</h1>
+      <h1 className='domain_name'>prasanna</h1>
       </div>
 {/* rght side of the nav */}
 
